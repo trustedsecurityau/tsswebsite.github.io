@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<script src="js/w3.js"></script>
 
-<!--#include FILE="includes/meta.html"-->
+<div w3-include-html="includes/meta.html"></div> 
 <title>Datacom TSS | Services</title>
 </head>
 <body id="three">
 <div id="container">
-    <!--#include FILE="includes/menu.html"-->
+<div w3-include-html="includes/menu.html"></div> 
 
     <div id="banner">
     	<h2>Services</h2>
@@ -85,7 +86,7 @@
 
 </div><!-- end content -->
 
- <!--#include FILE="includes/footer.html"-->
+<div w3-include-html="includes/footer.html"></div> 
 </div><!-- end container -->
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -148,6 +149,8 @@ function imageMove(type) {
 }
 
 </script>
-
+<script>
+w3.includeHTML();
+</script>
 </body>
 </html>

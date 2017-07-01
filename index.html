@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<!--#include FILE="includes/meta.html"-->
+<script src="js/w3.js"></script>
+
+<div w3-include-html="includes/meta.html"></div> 
 <title>Datacom TSS</title>
 <link rel="stylesheet" href="css/orbit-1.2.3.css" type="text/css" media="screen" />
 <style>#footer { margin: 0 } </style>
 </head>
 <body id="one">
 <div id="container">
-        <!--#include FILE="includes/menu.html"-->
+<div w3-include-html="includes/menu.html"></div> 
 <div class="top-right"></div>
 <div id="featured"> 
 		
@@ -78,7 +80,7 @@ Phone:
 <img style='float: left; margin: 0 5px 5px' alt="CREST Logo" src="images/crest.jpg" width="25px"></img>
 <div style="line-height: 25px;"> CREST Approved Company.&nbsp;&nbsp; CREST Approved Testers.&nbsp;&nbsp; Refer to <a href="http://www.crestaustralia.org" >www.crestaustralia.org</a>.</div>
 
- <!--#include FILE="includes/footer.html"-->
+<div w3-include-html="includes/footer.html"></div> 
 	</div><!-- end container -->
 	
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -98,6 +100,8 @@ Phone:
 			});
 
 		</script>
-	
+<script>
+w3.includeHTML();
+</script>	
 </body>
 </html>
