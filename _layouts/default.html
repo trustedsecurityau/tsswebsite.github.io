@@ -1,0 +1,48 @@
+---
+---
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  {% include meta.html %}
+  <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
+
+  <title>TSS{{ page.title }}</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  {% if page.head %}
+    {% include {{ page.head }} %}
+  {% endif %}
+</head>
+
+<body id="{{ page.bodyId }}">
+  <div id="container">
+    {% include menu.html %}
+
+    {% if page.banner %}
+      <div id="banner">
+        <h2>{{ page.banner }}</h2>
+      </div>
+    {% endif %}
+
+    {% if page.beforeContent %}
+      {% include {{ page.beforeContent }} %}
+    {% endif %}
+
+    <div id="content">
+      {{content}}
+    </div>
+
+    {% if page.afterContent %}
+      {% include {{ page.afterContent }} %}
+    {% endif %}
+
+    {% include footer.html %}
+  </div>
+
+  {% if page.scripts %}
+    {% include {{ page.scripts }} %}
+  {% endif %}
+</body>
+</html>
