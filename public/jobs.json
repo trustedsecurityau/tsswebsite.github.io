@@ -1,0 +1,53 @@
+
+{
+	"management": [
+		{
+			"title": "SOC Manager",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": false,
+			"priority": false
+		}
+	],
+	"analysts": [
+		{
+			"title": "Security Analyst",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": true,
+			"priority": false
+		},
+		{
+			"title": "Jnr. Security Analyst",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": true,
+			"priority": false
+		}
+	],
+	"engineers": [
+		{
+			"title": "Snr. Security Engineer",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": false,
+			"priority": false
+		},
+		{
+			"title": "Jnr. Security Engineer",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": false,
+			"priority": false
+		}
+	],
+	"consultant": [
+		{
+			"title": "Snr. Security Consultants",
+			"location": "Canberra, ACT",
+			"link": "mailto:jobs@datacomtss.com.au",
+			"hiring": true,
+			"priority": false
+		}
+	]
+}

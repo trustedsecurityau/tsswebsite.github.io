@@ -1,0 +1,33 @@
+@import 'node_modules/foundation-sites/scss/util/util';
+
+// 1. Global
+// ---------
+
+@media(prefers-dark-interface) {
+	html, body {
+		background-color: #000;
+	}
+	$foundation-palette: (
+			primary: #30c699,
+			secondary: #767676,
+			success: #3adb76,
+			warning: #ffae00,
+			alert: #cc4b37
+	);
+
+	$header-color: #150951;
+	$body-color: #8b85aa;
+	$navypurple-color: #150951;
+
+	$strategic-color: #6b87f9;
+	$operational-color: #ea4141;
+	$tactical-color: #30c699;
+
+	$light-gray: #e6e6e6;
+	$medium-gray: #cacaca;
+	$dark-gray: #8a8a8a;
+	$black: #0a0a0a;
+	$white: #000;
+	$body-background: #000;
+	$body-font-color: $body-color;
+}

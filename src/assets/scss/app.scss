@@ -1,0 +1,91 @@
+$fa-font-path: "/fonts/FontAwesome/" !default;
+@import 'font-awesome/fontawesome.scss';
+@import 'font-awesome/fa-regular.scss';
+@import 'font-awesome/fa-solid.scss';
+@import 'font-awesome/fa-brands.scss';
+@import 'fonts';
+@import 'settings';
+@import 'settings_dark';
+@import '~foundation-sites/scss/foundation';
+
+
+$global-flexbox: true !global;
+
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-forms;
+@include foundation-button;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-visibility-classes;
+@include foundation-flex-classes;
+
+html, body {
+	overflow-x: hidden;
+}
+
+.white-bg {
+	background-color: $white;
+}
+
+.callout {
+	border: none;
+	border-radius: $global-radius;
+	-webkit-box-shadow: 0 0 35px 3px rgba(7, 18, 84, 0.1);
+	-moz-box-shadow: 0 0 35px 3px rgba(7, 18, 84, 0.1);
+	box-shadow: 0 0 35px 3px rgba(7, 18, 84, 0.1);
+
+	a {
+		display: block;
+	}
+}
+
+a {
+	&.callout {
+		display: block;
+		-webkit-transition: all .2s ease;
+		transition: all .2s ease;
+
+		&:hover {
+			-webkit-transform: translateY(-3px);
+			transform: translateY(-3px);
+			-webkit-box-shadow: 0px 2px 40px 0px rgba(7, 18, 84, 0.1), 0px 2px 80px 0px rgba(7, 18, 84, 0.1);
+			box-shadow: 0px 2px 40px 0px rgba(7, 18, 84, 0.1), 0px 2px 80px 0px rgba(7, 18, 84, 0.1);
+
+		}
+	}
+	&.button {
+		-webkit-transition: all .2s ease;
+		transition: all .2s ease;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		&:hover {
+			-webkit-transform: translateY(-2px);
+			transform: translateY(-2px);
+
+
+		}
+	}
+}
+
+b {
+	font-weight: 600;
+}
+
+a.more {
+	&:after {
+		display: inline-block;
+		padding-left: 7px;
+		vertical-align: top;
+		content: '›';
+		transition: transform .2s;
+	}
+
+	&:hover {
+		&:after {
+			transform: translateX(3px);
+		}
+	}
+}
