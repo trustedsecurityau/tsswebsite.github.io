@@ -133,6 +133,10 @@ export default {
             padding: 220px 0;
         }
 
+        @include breakpoint(xxxlarge) {
+            padding: 280px 0;
+        }
+
         &.grey {
             background-color: #fcfbfc;
         }

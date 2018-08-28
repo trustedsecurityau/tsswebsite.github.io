@@ -25,6 +25,13 @@ html, body {
 	overflow-x: hidden;
 }
 
+
+@include breakpoint(xxxlarge) {
+	.grid-container {
+		max-width: 90rem;
+	}
+}
+
 .white-bg {
 	background-color: $white;
 }

@@ -434,8 +434,11 @@ export default {
         .consulting, .mso, .securitytesting {
             height: 100%;
             background-color: #000;
-            -webkit-background-size: 1000px;
-            background-size: 1000px;
+            // -webkit-background-size: 1000px;
+            // background-size: 1000px;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: top center;
             padding: 20px 40px;
             position: relative;
 

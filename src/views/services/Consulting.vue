@@ -114,6 +114,16 @@ export default {
             h3 {
                 color: $strategic-color !important;
             }
+
+            &#grc {
+                .image {
+                    @include breakpoint(xlarge) {
+                        top: 204px;
+                        height: calc(100% - 324px);
+                        bottom: 120px;
+                    }
+                }
+            }
         }
         section#featurettes {
             h4 {
