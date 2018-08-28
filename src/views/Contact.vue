@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <p>
-                            Or if you prefer to call us, phone <a href="phone:+61261522200">+61 2 6152 2200</a>.
+                            Or if you prefer to call us, phone <a href="mob:+61261522200">+61 2 6152 2200</a>.
                         </p>
                     </div>
 
