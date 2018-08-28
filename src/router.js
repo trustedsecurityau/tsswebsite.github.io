@@ -102,14 +102,44 @@ let router = new Router({
 			    title: 'Privacy Policy'
 		    }
 	    },
-        {
-            path: '/*',
-            name: '404',
-            component: FourOhFour,
-            meta: {
-                title: 'FourOhFour'
-            }
-        }
+
+	    /**
+         * Old Legacy Routes
+         * TODO - To be removed approx 30/06/2019
+         *
+         * /about.html
+	     * /careers.html
+	     * /services.html#strategic
+	     * /services.html#tactical
+	     * /services.html#operational
+	     * /services.html
+	     * /contact.html
+	     */
+        { path: '/about\.html',  redirect: { name: 'about' } },
+	    { path: '/careers\.html',  redirect: { name: 'careers' } },
+	    { path: '/services\.html',  redirect: to =>
+		    {
+			    /* Matches the hash of the little diagram thing on the old website */
+			    if(to.hash === '#strategic') { return { name: 'consulting', hash: '' } }
+			    if(to.hash === '#tactical') { return { name: 'securitytesting', hash: '' } }
+			    if(to.hash === '#operational') { return { name: 'mso', hash: '' } }
+			    return { name: 'services' }
+		    }
+	    },
+	    { path: '/contact\.html',  redirect: { name: 'contact' } },
+
+	    /**
+         * Four Oh Four
+	     */
+
+	    {
+		    path: '/*',
+		    name: '404',
+		    component: FourOhFour,
+		    meta: {
+			    title: 'FourOhFour'
+		    }
+	    }
     ],
 	scrollBehavior: (to, from, savedPosition) => {
 		if (savedPosition) {

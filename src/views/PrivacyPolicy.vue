@@ -105,9 +105,9 @@
 							<p>For any questions or notices, please contact our Privacy Officer at:</p>
 							<p>
 								<b>TSS Cyber Pty Ltd. ABN: 84 151 241 253 </b><br />
-								Email: <a href="mailto:team@trusted.security">team@trusted.security</a><br />
-								Website: <a href="https://trusted.security/">https://trusted.security/</a><br />
-								Last updated: 10th July 2018<br />
+								Email: <a href="mailto:team@tsscyber.com.au">team@tsscyber.com.au</a><br />
+								Website: <a href="https://tsscyber.com.au/">https://tsscyber.com.au/</a><br />
+								Last updated: 23th August 2018<br />
 							</p>
 						</div>
 					</div>
