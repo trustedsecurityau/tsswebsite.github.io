@@ -108,7 +108,7 @@
             </div>
 
             <div class="logos">
-                <img src="http://www.crest-approved.org/wp-content/uploads/2014/12/CREST-Accredited_training-courses-218x300.jpg"
+                <img src="https://www.crest-approved.org/wp-content/uploads/2014/12/CREST-Accredited_training-courses-218x300.jpg"
                      width=""
                      height=""
                      alt="CREST Accredited">
@@ -173,7 +173,7 @@
                      width=""
                      height=""
                      alt="">
-                <img src="http://www.bsidesau.com.au/img/bsidesfinallogo-small.jpg"
+                <img src="https://www.bsidesau.com.au/img/bsidesfinallogo-small.jpg"
                      width=""
                      height=""
                      alt="">
@@ -185,7 +185,7 @@
                      width=""
                      height=""
                      alt="">
-                <img src="http://www.itsecurityguru.org/wp-content/uploads/2015/07/CREST-logo-2014-290px_290X230.jpg"
+                <img src="https://www.itsecurityguru.org/wp-content/uploads/2015/07/CREST-logo-2014-290px_290X230.jpg"
                      width=""
                      height=""
                      alt="">
