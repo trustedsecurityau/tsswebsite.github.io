@@ -57,7 +57,7 @@ export default {
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center;
-            background-image: url(https://media.wired.com/photos/5937266831379d0b2f5b9291/master/w_2500,c_limit/CSICyber.jpg);
+            background-image: url(/img/404/CSICyber.jpg);
             opacity: 0.4;
             padding-bottom: 200px;
 
@@ -86,7 +86,7 @@ export default {
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center;
-            background-image: url(https://media.wired.com/photos/5937266831379d0b2f5b9291/master/w_2500,c_limit/CSICyber.jpg);
+            background-image: url(/img/404/CSICyber.jpg);
             opacity: 0.2;
         }
         .grid-x {
