@@ -4,15 +4,15 @@
         <div class="grid-container">
             <nav class="grid-x grid-padding-x align-justify">
                 <div class="cell small-11 medium-shrink">
-                    <router-link to="/">
+                    <router-link :to="{ name :'home' }">
                         <Logo class="logo"/>
                     </router-link>
                 </div>
                 <div class="cell small-11 medium-shrink">
                     <h5>Company</h5>
-                    <router-link to="/about">About</router-link>
+                    <router-link :to="{ name :'about' }">About</router-link>
                     <!--<router-link to="/labs">Labs</router-link>-->
-                    <router-link to="/careers">Careers</router-link>
+                    <router-link :to="{ name :'careers' }">Careers</router-link>
                 </div>
                 <div class="cell small-11 medium-auto">
                     <h5>Services</h5>
@@ -53,7 +53,7 @@
                     <a href="https://twitter.com/TSSCyber">Twitter</a>
                     <a href="https://medium.com/dtss">Medium</a>
                     <!--<router-link to="#">Events</router-link>-->
-                    <router-link to="/contact">Contact Us</router-link>
+                    <router-link :to="{ name :'contact' }">Contact Us</router-link>
                 </div>
             </nav>
             <div class="locations grid-x grid-padding-x small-up-1 medium-up-2 large-up-4">

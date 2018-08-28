@@ -5,7 +5,6 @@ import store from './store'
 import './registerServiceWorker'
 import ie9 from './util/polyfill/ie9'
 
-
 Vue.config.productionTip = false
 
 ie9.init()

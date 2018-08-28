@@ -55,7 +55,7 @@ let router = new Router({
             }
         },
         {
-            path: '/services/consulting',
+            path: '/services/security-assurance',
             name: 'consulting',
             component: Consulting,
             meta: {
@@ -71,7 +71,7 @@ let router = new Router({
             }
         },
         {
-            path: '/services/managed-security-operations',
+            path: '/services/managed-security',
             name: 'mso',
             component: MSO,
             meta: {
