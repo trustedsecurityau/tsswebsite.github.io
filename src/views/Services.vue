@@ -7,127 +7,127 @@
             overflow
             light>
             <div class="eyebrow">Services</div>
-            <h1>Serving the best in cyber security to the Australian market.</h1>
+            <h1>Serving premium cyber security to the Australian&nbsp;market.</h1>
             <p>TSS offers a range of consulting, security testing and managed security services. Our experience across a broad range of markets means we can assist your organisation in meeting its cyber security needs.</p>
         </Hero>
 
         <section class="services">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
-                <div class="cell small-12">
-                    <div class="service consulting">
-                        <div class="grid-x grid-padding-x">
-                            <div class="small-12 cell">
-                                <img src="/img/home/strategic_2x.png"
-                                     class="service-logo" alt="">
-                            </div>
-                            <div class="small-12 large-4 cell">
-                                <h2>{{ services.consulting.title }}</h2>
-                                <p class="description">
-                                    <span v-html="services.consulting.description"/>
-                                    <br >
-                                    <router-link :to="{ name: 'consulting' }"
-                                                 class="more">Learn more</router-link>
-                                </p>
-                            </div>
-                            <div class="small-12 large-auto cell">
-                                <div class="grid-x grid-padding-x">
-                                    <div v-for="service in services.consulting.list"
-                                         class="small-12 medium-6 cell">
-                                        <router-link :to="{ name: 'consulting', hash: '#' + service.id }"
-                                                     class="individual">
-                                            <!--<img :src="service.icon" alt="" class="icon">-->
-                                            <img :src="service.icon"
-                                                 alt="" class="icon">
-                                            <h5>{{ service.footerTitle }}</h5>
-                                            <p>
-                                                {{ BillShorten(service.paragraph) }}<br >
-                                                <router-link :to="{ name: 'consulting', hash: '#' + service.id }"
-                                                             class="more">Learn more</router-link>
-                                            </p>
-                                        </router-link>
+                    <div class="cell small-12">
+                        <div class="service consulting">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-12 cell">
+                                    <img src="/img/home/strategic_2x.png"
+                                         class="service-logo" alt="">
+                                </div>
+                                <div class="small-12 large-4 cell">
+                                    <h2>{{ services.consulting.title }}</h2>
+                                    <p class="description">
+                                        <span v-html="services.consulting.description"/>
+                                        <br >
+                                        <router-link :to="{ name: 'consulting' }"
+                                                     class="more">Learn more</router-link>
+                                    </p>
+                                </div>
+                                <div class="small-12 large-auto cell">
+                                    <div class="grid-x grid-padding-x">
+                                        <div v-for="service in services.consulting.list"
+                                             class="small-12 medium-6 cell">
+                                            <router-link :to="{ name: 'consulting', hash: '#' + service.id }"
+                                                         class="individual">
+                                                <!--<img :src="service.icon" alt="" class="icon">-->
+                                                <img :src="service.icon"
+                                                     alt="" class="icon">
+                                                <h5>{{ service.footerTitle }}</h5>
+                                                <p>
+                                                    {{ BillShorten(service.paragraph) }}<br >
+                                                    <router-link :to="{ name: 'consulting', hash: '#' + service.id }"
+                                                                 class="more">Learn more</router-link>
+                                                </p>
+                                            </router-link>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="service mso">
-                        <div class="grid-x grid-padding-x">
-                            <div class="small-12 cell">
-                                <img src="/img/home/tactical_2x.png"
-                                     class="service-logo" alt="">
-                            </div>
-                            <div class="small-12 large-4 cell">
-                                <h2>{{ services.mso.title }}</h2>
-                                <p class="description">
-                                    <span v-html="services.mso.description"/>
-                                    <br >
-                                    <router-link :to="{ name: 'mso' }"
-                                                 class="more">Learn more</router-link>
-                                </p>
-                            </div>
-                            <div class="small-12 large-auto cell">
-                                <div class="grid-x grid-padding-x">
-                                    <div v-for="service in services.mso.list"
-                                         class="small-12 medium-6 cell">
-                                        <router-link :to="{ name: 'mso', hash: '#' + service.id }"
-                                                     class="individual">
-                                            <!--<img :src="service.icon" alt="" class="icon">-->
-                                            <img :src="service.icon"
-                                                 alt="" class="icon">
-                                            <h5>{{ service.footerTitle }}</h5>
-                                            <p>
-                                                {{ BillShorten(service.paragraph) }}<br >
-                                                <router-link :to="{ name: 'mso', hash: '#' + service.id }"
-                                                             class="more">Learn more</router-link>
-                                            </p>
-                                        </router-link>
+                        <div class="service mso">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-12 cell">
+                                    <img src="/img/home/tactical_2x.png"
+                                         class="service-logo" alt="">
+                                </div>
+                                <div class="small-12 large-4 cell">
+                                    <h2>{{ services.mso.title }}</h2>
+                                    <p class="description">
+                                        <span v-html="services.mso.description"/>
+                                        <br >
+                                        <router-link :to="{ name: 'mso' }"
+                                                     class="more">Learn more</router-link>
+                                    </p>
+                                </div>
+                                <div class="small-12 large-auto cell">
+                                    <div class="grid-x grid-padding-x">
+                                        <div v-for="service in services.mso.list"
+                                             class="small-12 medium-6 cell">
+                                            <router-link :to="{ name: 'mso', hash: '#' + service.id }"
+                                                         class="individual">
+                                                <!--<img :src="service.icon" alt="" class="icon">-->
+                                                <img :src="service.icon"
+                                                     alt="" class="icon">
+                                                <h5>{{ service.footerTitle }}</h5>
+                                                <p>
+                                                    {{ BillShorten(service.paragraph) }}<br >
+                                                    <router-link :to="{ name: 'mso', hash: '#' + service.id }"
+                                                                 class="more">Learn more</router-link>
+                                                </p>
+                                            </router-link>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="service securitytesting">
-                        <div class="grid-x grid-padding-x">
-                            <div class="small-12 cell">
-                                <img src="/img/home/operational_2x.png"
-                                     class="service-logo" alt="">
-                            </div>
-                            <div class="small-12 large-4 cell">
-                                <h2>{{ services.securitytesting.title }}</h2>
-                                <p class="description">
-                                    <span v-html="services.securitytesting.description"/>
-                                    <br >
-                                    <router-link :to="{ name: 'securitytesting' }"
-                                                 class="more">Learn more</router-link>
-                                </p>
-                            </div>
-                            <div class="small-12 large-auto cell">
-                                <div class="grid-x grid-padding-x">
-                                    <div v-for="service in services.securitytesting.list"
-                                         class="small-12 medium-6 cell">
-                                        <router-link :to="{ name: 'securitytesting', hash: '#' + service.id }"
-                                                     class="individual">
-                                            <!--<img :src="service.icon" alt="" class="icon">-->
-                                            <img :src="service.icon"
-                                                 alt="" class="icon">
-                                            <h5>{{ service.footerTitle }}</h5>
-                                            <p>
-                                                {{ BillShorten(service.paragraph) }}<br >
-                                                <router-link :to="{ name: 'securitytesting', hash: '#' + service.id }"
-                                                             class="more">Learn more</router-link>
-                                            </p>
-                                        </router-link>
+                        <div class="service securitytesting">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-12 cell">
+                                    <img src="/img/home/operational_2x.png"
+                                         class="service-logo" alt="">
+                                </div>
+                                <div class="small-12 large-4 cell">
+                                    <h2>{{ services.securitytesting.title }}</h2>
+                                    <p class="description">
+                                        <span v-html="services.securitytesting.description"/>
+                                        <br >
+                                        <router-link :to="{ name: 'securitytesting' }"
+                                                     class="more">Learn more</router-link>
+                                    </p>
+                                </div>
+                                <div class="small-12 large-auto cell">
+                                    <div class="grid-x grid-padding-x">
+                                        <div v-for="service in services.securitytesting.list"
+                                             class="small-12 medium-6 cell">
+                                            <router-link :to="{ name: 'securitytesting', hash: '#' + service.id }"
+                                                         class="individual">
+                                                <!--<img :src="service.icon" alt="" class="icon">-->
+                                                <img :src="service.icon"
+                                                     alt="" class="icon">
+                                                <h5>{{ service.footerTitle }}</h5>
+                                                <p>
+                                                    {{ BillShorten(service.paragraph) }}<br >
+                                                    <router-link :to="{ name: 'securitytesting', hash: '#' + service.id }"
+                                                                 class="more">Learn more</router-link>
+                                                </p>
+                                            </router-link>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -230,7 +230,7 @@ export default {
                 @include breakpoint(large) {
                     margin-bottom: 0;
                     margin-right: 20px;
-                    text-align: justify;
+                    // text-align: justify;
                 }
             }
 

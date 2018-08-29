@@ -5,10 +5,11 @@
             feature-image="/img/about/about_hero_2x.png"
             theme="dark"
             gp>
+
             <div class="eyebrow">About Us</div>
             <h2>Providing trusted security services globally since 2011.</h2>
             <p>
-                Established in 2011, TSS is a specialist information security company founded by former Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
+                Established in 2011, TSS Cyber (formally Datacom TSS) is a specialist information security company founded by former Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
             </p>
         </Hero>
 
@@ -80,7 +81,7 @@
             <h3>Established in the Heart of Australia</h3>
             <h2>Canberra HQ</h2>
             <p>
-                Based in Australia's Capital, TSS is not only able to service both public and private enterprise, we are also able to capture Australia's best pool of engineering and security talant.
+                Based in Australia's Capital, TSS is not only able to service both public and private enterprise, we are also able to attract Australia's best pool of engineering and security&nbsp;talent.
             </p>
         </SectionModule>
 
@@ -103,7 +104,7 @@
             <h2>Accreditations</h2>
             <div class="grid-x align-center">
                 <div class="cell small-12 medium-10">
-                    <p>Each one of our staff are the best in their field, and have accreditations to match. We pride our staff in achieving and maintaining their accreditation and awards.</p>
+                    <p>Each one of our staff are the best in their field, and have accreditations to match. We pride ourselves in supporting our staff to achieve and maintain accreditations and awards.</p>
                 </div>
             </div>
 
