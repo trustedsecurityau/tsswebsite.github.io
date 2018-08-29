@@ -22,7 +22,7 @@
                                     <i class="fas fa-comments icon"></i>
                                     <b>General enquiries</b>
                                     <a href="mailto:team@tsscyber.com.au">team@tsscyber.com.au</a>
-                                    <a href="/img/contact/team-pub-key.asc" class="key"><i class="fa fa-key"></i> PGP Key</a>
+                                    <!--<a href="/img/contact/team-pub-key.asc" class="key"><i class="fa fa-key"></i> PGP Key</a>-->
                                 </p>
                             </div>
                             <div class="cell small-12 large-6 locations">
@@ -30,12 +30,12 @@
                                     <i class="fas fa-building icon"></i>
                                     <b>Careers related enquiries</b>
                                     <a href="mailto:work@tsscyber.com.au">work@tsscyber.com.au</a>
-                                    <a href="/img/contact/work-pub-key.asc" class="key"><i class="fa fa-key"></i> PGP Key</a>
+                                    <!--<a href="/img/contact/work-pub-key.asc" class="key"><i class="fa fa-key"></i> PGP Key</a>-->
                                 </p>
                             </div>
                         </div>
                         <p>
-                            Or if you prefer to call us, phone <a href="mob:+61261522200">+61 2 6152 2200</a>.
+                            Or if you prefer to call us, phone <a href="tel:+61261522200">+61 2 6152 2200</a>.
                         </p>
                     </div>
 

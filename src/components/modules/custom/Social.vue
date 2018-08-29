@@ -153,7 +153,7 @@ export default {
         axios.get('https://proxy.sinn.io/tss/medium/').then((response) => {
             let articles = response.data.response
             articles.forEach(article => { article.type = 'article'; return article })
-            articles = articles.reverse().slice(0, 4)
+            articles = articles.slice(0, 4)
             // console.log(articles)
             _this.tweetsAndMedium_articles = _this.tweetsAndMedium_articles.concat(articles)
         })
