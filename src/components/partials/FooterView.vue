@@ -67,7 +67,7 @@
                                 TSS Canberra
                             </div>
                             <p>
-                                Level 5, 71 Northbourne Avenue <br > Canberra ACT 2601
+                                Level 5, 71 Northbourne Avenue <br >Canberra ACT 2601
                             </p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                                 TSS Brisbane
                             </div>
                             <p>
-                                Level 1, 25 Donkin Street <br >South Brisbane QLD 4101
+                               501 Ann Street,<br >Fortitude Valley QLD 4001
                             </p>
                         </div>
                     </div>
