@@ -51,7 +51,7 @@
                 <div class="cell small-11 medium-shrink">
                     <h5>Connect</h5>
                     <a href="https://twitter.com/TSSCyber">Twitter</a>
-                    <a href="https://medium.com/dtss">Medium</a>
+                    <a href="https://medium.com/tsscyber">Medium</a>
                     <!--<router-link to="#">Events</router-link>-->
                     <router-link :to="{ name :'contact' }">Contact Us</router-link>
                 </div>

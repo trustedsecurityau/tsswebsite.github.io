@@ -168,7 +168,7 @@ router.afterEach((to, from) => {
     setTimeout(() => {
         if (to.hash) {
 	        window.scroll({ top: 0 });
-            VueScrollTo.scrollTo(to.hash, 1200);
+            VueScrollTo.scrollTo(to.hash, 1);
         }
     }, 500);
 })
