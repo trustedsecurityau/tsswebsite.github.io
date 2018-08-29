@@ -7,8 +7,8 @@ export default {
     consulting: {
         icon: '/img/home/strategic_2x.png',
         title: 'Security Assurance',
-        showDescription: 'Our <b>Security Snapshot</b> and <b>Security Architecture Review</b> services',
-        description: 'Our <b>Security Snapshot</b> and <b>Security Architecture Review</b> services – We provide a holistic view of organisational security risk, recommendations based on real world threats, and a 6 - 18 month roadmap to implement a security program of works.',
+        showDescription: 'Our <b>Security Posture Snapshot</b> and <b>Security Architecture Review</b> services',
+        description: 'Our <b>Security Posture Snapshot</b> and <b>Security Architecture Review</b> services – We provide a holistic view of organisational security risk, recommendations based on real world threats, and a 6 - 18 month roadmap to implement a security program of works.',
         quote: 'Security Posture Snapshot is our flagship consulting service, delivered a budgeted remediation plan to a number of ASX Top 10 listed companies.',
         list: [
             {
@@ -128,10 +128,10 @@ export default {
                 id: 'epdar',
 	            image: '/img/services/tactical/edpr@2x.png',
 	            icon: '/img/services/tactical/epdr.png',
-                eyebrow: 'End-Point',
+                eyebrow: 'Endpoint',
                 title: 'Detection and Response',
                 paragraph: 'EDR is our service that addresses the need for continuous monitoring and response to advanced threats. The service is primarily focused on detecting and investigating suspicious activities (and traces of such), and other problems on hosts and endpoints.',
-                footerTitle: 'End-Point Detection and Response',
+                footerTitle: 'Endpoint Detection and Response',
                 type: 'row',
                 violator: false,
                 side: 'left',
