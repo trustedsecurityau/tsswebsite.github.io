@@ -150,7 +150,7 @@
             side="left"
             image="/img/about/the_best_team_2x.jpg">
             <h3>The right talent</h3>
-            <h2>The best team</h2>
+            <h2>A great team</h2>
             <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
             <p>This allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
         </SectionModule>
