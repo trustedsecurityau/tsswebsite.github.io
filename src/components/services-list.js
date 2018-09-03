@@ -156,7 +156,7 @@ export default {
                 icon: '/img/services/tactical/drp.png',
                 eyebrow: 'Digital',
                 title: 'Risk Protection',
-                paragraph: 'Dark web sites are the meeting and market places for emerging cyber threats. Digital Risk Protection offers a rich sources of intelligence, often relevant to a broad spectrum of potential targets that aren’t accessible through conventional monitoring.',
+                paragraph: 'Dark web sites are the meeting and market places for emerging cyber threats. Digital Risk Protection provides a rich source of intelligence, often relevant to a broad spectrum of potential targets that aren’t accessible through conventional monitoring.',
                 footerTitle: 'Digital Risk Protection',
                 type: 'featurette',
                 violator: false,
