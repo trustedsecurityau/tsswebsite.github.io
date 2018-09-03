@@ -45,7 +45,7 @@
                                     class="cell shrink">Contact</router-link>
                                 <a
                                     @mouseover.native="show_services = false"
-                                    href="https://medium.com/dtss"
+                                    href="https://medium.com/tsscyber"
                                     target="_blank"
                                     class="cell shrink">Blog</a>
                                 <a

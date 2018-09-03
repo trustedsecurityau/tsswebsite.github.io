@@ -63,7 +63,7 @@
             <h3>About Us</h3>
             <!--<h2>Attack. Identify.<br />Defend. Respond.</h2>-->
             <h2>Our Story</h2>
-            <p>TSS was established in 2011 by former Australian Government intelligence & cyber security specialists. We aim to deliver discreet, niche, and tailored security solutions to best meet your business needs.</p>
+            <p>TSS was established in 2011 by former Australian Government intelligence &amp; cyber security specialists. We aim to deliver outcome focused security solutions to best meet your business needs.</p>
             <router-link class="more"
                          :to="{ name: 'about' }">Learn More</router-link>
         </SectionModule>
