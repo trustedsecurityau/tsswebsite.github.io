@@ -174,8 +174,8 @@ export default {
         list: [
             {
                 id: 'redteaming',
-                image: '',
-	            icon: '/img/services/operational/redteam.png',
+                image: '/img/services/operational/redteaming.png',
+	            icon: '/img/services/operational/redteaming.png',
                 eyebrow: 'Red',
                 title: 'Teaming',
                 paragraph: 'A simulated cyber-intrusion that mimics a targeted attack against your organisation, based on methods and techniques successfully employed by real-world attackers today, but in a trusted and controlled manner. We offer a tailored service that can include physical access and social engineering based testing in conjunction with traditional technology based attack techniques.',
@@ -187,7 +187,7 @@ export default {
             },
             {
                 id: 'pentesting',
-                image: '',
+                image: '/img/services/operational/pentesting.png',
 	            icon: '/img/services/operational/pentesting.png',
                 eyebrow: 'Penetration',
                 title: 'Testing',

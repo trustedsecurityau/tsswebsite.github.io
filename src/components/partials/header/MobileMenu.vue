@@ -28,7 +28,7 @@
                 <!--:to="{ name: 'research' }"-->
                 <!--class="cell shrink">Research</router-link>-->
                 <a
-                    href="https://medium.com/dtss"
+                    href="https://medium.com/tsscyber"
                     class="cell shrink">Blog</a>
                 <router-link
                     :to="{ name: 'careers' }"

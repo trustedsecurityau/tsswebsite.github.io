@@ -27,7 +27,7 @@
                             </a>
 
                             <a v-if="media.type === 'article'" :style="{ backgroundImage: 'url(' + 'https://cdn-images-1.medium.com/max/600/' + media.virtuals.previewImage.imageId + ')' }"
-                               :href="'https://medium.com/dtss/' + media.id"
+                               :href="'https://medium.com/tsscyber/' + media.id"
                                target="_blank"
                                class="article">
                                 <div class="medium_username"><i class="fab fa-medium"/> TSSCyber</div>
