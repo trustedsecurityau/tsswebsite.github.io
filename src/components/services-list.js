@@ -95,7 +95,7 @@ export default {
         icon: '/img/home/tactical_2x.png',
         title: 'Managed Security',
         showDescription: 'Industry leading innovation in agile devops and robotic process automation.',
-        description: "A blend of machine automation and highly skilled analysts, focused on protecting your organisation's key IT assets, 24 hours a day, 365 days a year.",
+        description: "A blend of machine automation and highly skilled analysts, focused on protecting your organisation's key IT assets, 24 hours a day, 365&nbsp;days&nbsp;a&nbsp;year.",
         quote: 'Our Managed Security Services uses our Smart SOC to blend machine automation and our highly skilled analysts to protect your organisation 24×7&nbsp;/&nbsp;365.',
         list: [
             {
