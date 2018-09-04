@@ -7,8 +7,8 @@ export default {
     consulting: {
         icon: '/img/home/strategic_2x.png',
         title: 'Security Assurance',
-        showDescription: 'Our <b>Security Posture Snapshot</b> and <b>Security Architecture Review</b> services',
-        description: 'Our <b>Security Posture Snapshot</b> and <b>Security Architecture Review</b> services – We provide a holistic view of organisational security risk, recommendations based on real world threats, and a 6 - 18 month roadmap to implement a security program of works.',
+        showDescription: 'Highly skilled and experienced consultants providing trusted security advice and guidance.',
+        description: 'Our <b>Security Posture Snapshot</b> is our flagship service. An organisational cyber resilience assessment based on real world threats your business and sector is likely to face.',
         quote: 'Security Posture Snapshot is our flagship consulting service that provides a prioritised and budgeted road map to improved business resilience.',
         list: [
             {
@@ -94,8 +94,8 @@ export default {
     mso: {
         icon: '/img/home/tactical_2x.png',
         title: 'Managed Security',
-        showDescription: 'Our <b>Managed Security</b> and <b>Monitoring</b> division',
-        description: "Our <b>Managed Security</b> and <b>Monitoring</b> division – A blend of machine automation and highly skilled analysts, focusing on keeping eyes on your organisation's key IT assets, 24 hours a day, 365 days a year.",
+        showDescription: 'Industry leading innovation in agile devops and robotic process automation.',
+        description: "A blend of machine automation and highly skilled analysts, focused on protecting your organisation's key IT assets, 24 hours a day, 365 days a year.",
         quote: 'Our Managed Security Services uses our Smart SOC to blend machine automation and our highly skilled analysts to protect your organisation 24×7&nbsp;/&nbsp;365.',
         list: [
             {
@@ -168,7 +168,7 @@ export default {
     securitytesting: {
         icon: '/img/home/operational_2x.png',
         title: 'Security Testing',
-        showDescription: 'Our <b>Red Teaming</b>, <b>Pentesting</b> and <b>Secure Code Review</b> division',
+        showDescription: 'Accomplished ethical hackers that can emulate real world threat actors.',
         description: "Our <b>Red Teaming</b>, <b>Pentesting</b> and <b>Secure Code Review</b> division – We emulate real world cyber adversaries, to both test your organisation's security controls and help you understand likely attack vectors so you can better prepare to prevent and resist future attacks.",
         quote: "Our Red Teaming is world class and emulates real-world adversaries, to both test your organisation's security controls and help you understand likely attack vectors so you can better prepare to prevent and resist future attacks.",
         list: [

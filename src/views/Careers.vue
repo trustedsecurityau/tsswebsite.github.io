@@ -8,7 +8,7 @@
             header-padding
             overflow>
             <div class="eyebrow">Do your greatest work</div>
-            <h1>While learning from our bright and talented staff.</h1>
+            <h1>While learning from our bright and talented staff</h1>
             <p>TSS is always looking for passionate and motivated information security practitioners who are seeking challenging and enjoyable security work.</p>
 
         </Hero>
