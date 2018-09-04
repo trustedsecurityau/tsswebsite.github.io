@@ -7,9 +7,9 @@
             gp>
 
             <div class="eyebrow">About Us</div>
-            <h2>Providing trusted security services globally since 2011.</h2>
+            <h2>Providing trusted security services globally since 2011</h2>
             <p>
-                Established in 2011, TSS Cyber (formally Datacom TSS) is a specialist information security company founded by former Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
+                Established in 2011, TSS Cyber (formally Datacom TSS) is a specialist information security company founded by previously Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
             </p>
         </Hero>
 
@@ -19,15 +19,15 @@
                 side="right"
                 image="/img/about/anzac-canberra.jpeg">
             <h3>Australian</h3>
-            <h2>Owned and Operated</h2>
+            <h2>Established and Operated</h2>
             <p>
-                TSS was established by Richard Byfield (TSS MD), together with three other Australian Defence Security and Intelligence personnel. Byfield established TSS to be a mission focused business for actively protecting Australian organisations from contemporary cyber threats.
+                TSS was established by Richard Byfield (TSS MD), together with three other former Australian Defence Security and Intelligence personnel. Byfield established TSS to be a mission focused business for actively protecting Australian organisations from contemporary cyber threats.
             </p>
             <p>
-                TSS agree the current approach to cyber security had failed for several years and are aligned in their pragmatic belief that to minimise risk it is essential to first understand the threat and the assets of value that are most likely to be&nbsp;targeted.
+                TSS believes that the common approach to cyber security has been failing for many years. In order to better minimise business risk, TSS provides an understanding of the threats to the assets of value most likely to be targeted within an&nbsp;organisation.
             </p>
             <p>
-                With significant experience in mitigating and countering cyber threats for the Australian government, critical infrastructure providers and other organisations for well over a decade, the combined vision and knowledge of the founders, TSS provides an evolutionary approach to addressing the contemporary challenges that digitisation of business poses to modern organisations today.
+                With significant experience in mitigating and countering cyber threats for the Australian government, critical infrastructure providers and other organisations for well over a decade, TSS provides an evolutionary approach to addressing the contemporary challenges that digitisation of business poses to modern organisations today.
             </p>
 
         </SectionModule>
@@ -104,7 +104,7 @@
             <h2>Accreditations</h2>
             <div class="grid-x align-center">
                 <div class="cell small-12 medium-10">
-                    <p>Each one of our staff are the best in their field, and have accreditations to match. We pride ourselves in supporting our staff to achieve and maintain accreditations and awards.</p>
+                    <p>Each one of our staff are experts in their field, and have accreditations to match. We pride ourselves in supporting our staff to achieve and maintain accreditations and awards.</p>
                 </div>
             </div>
 
@@ -151,7 +151,7 @@
             image="/img/about/the_best_team_2x.jpg">
             <h3>The right talent</h3>
             <h2>A great team</h2>
-            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
+            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine cyber opterations, security architecture, security engineering, threat intelligence, DevOps, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
             <p>This allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
         </SectionModule>
 

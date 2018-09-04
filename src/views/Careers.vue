@@ -8,7 +8,7 @@
             header-padding
             overflow>
             <div class="eyebrow">Do your greatest work</div>
-            <h1>While learning from our bright and talented staff.</h1>
+            <h1>While learning from our bright and talented staff</h1>
             <p>TSS is always looking for passionate and motivated information security practitioners who are seeking challenging and enjoyable security work.</p>
 
         </Hero>
@@ -24,7 +24,7 @@
                                     <h3>Open Positions</h3>
 
                                     <p>
-                                        No matter where you're based in Australia, you’ll be part of a group of people working together to build solutions to business-critical problems and a company that values the very best ideas. There’s a role here for you—whether you're a new grad or have years of experience.
+                                        No matter where you're based in Australia, you’ll be part of a group of people working together to build solutions to business-critical problems in a company that values the very best ideas. There’s a role here for you—whether you're a new grad or have years of experience.
                                     </p>
                                 </div>
                             </div>

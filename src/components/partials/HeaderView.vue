@@ -73,10 +73,8 @@
                                 <div class="grid-x align-middle">
                                     <div class="cell small-12 medium-10 large-9">
                                         <img src="/img/home/strategic_2x.png" alt="">
-                                        <h4>Security Assurance</h4>
-                                        <p>
-                                            Our <b>Security Snapshot</b> and <b>Security Architecture Review</b> services
-                                        </p>
+                                        <h4>{{ Services.consulting.title }}</h4>
+                                        <p v-html="Services.consulting.showDescription"></p>
                                     </div>
                                 </div>
                             </router-link>
@@ -85,10 +83,8 @@
                                 <div class="grid-x align-middle">
                                     <div class="cell small-12 medium-10 large-9">
                                         <img src="/img/home/tactical_2x.png" alt="">
-                                        <h4>Managed Security</h4>
-                                        <p>
-                                            Our <b>Managed Security Overwatch</b> and <b>Monitoring</b> division
-                                        </p>
+                                        <h4>{{ Services.mso.title }}</h4>
+                                        <p v-html="Services.mso.showDescription"></p>
                                     </div>
                                 </div>
                             </router-link>
@@ -97,10 +93,8 @@
                                 <div class="grid-x align-middle">
                                     <div class="cell small-12 medium-10 large-9">
                                         <img src="/img/home/operational_2x.png" alt="">
-                                        <h4>Security Testing</h4>
-                                        <p>
-                                            Our <b>Red Teaming</b>, <b>Pentesting</b> and <b>Secure Code Review</b> division
-                                        </p>
+                                        <h4>{{ Services.securitytesting.title }}</h4>
+                                        <p v-html="Services.securitytesting.showDescription"></p>
                                     </div>
                                 </div>
                             </router-link>
@@ -118,6 +112,7 @@
 
 <script>
 	import { headroom } from 'vue-headroom'
+	import Services from '@/components/services-list'
 
     const Logo = () => import('@/components/partials/header/Logo')
     const MobileMenu = () => import('@/components/partials/header/MobileMenu')
@@ -143,7 +138,8 @@ export default {
     data: function () {
         return {
             menu_open: false,
-            show_services: false
+            show_services: false,
+	        Services
         }
     },
     mounted: function() {

@@ -16,7 +16,6 @@ import Vue from 'vue'
 import VueProgressBar from 'vue-progressbar'
 import Header from './components/partials/HeaderView'
 import bowser from 'bowser'
-import Uncover from '@/assets/transitions/uncover'
 import VueScroll from 'vue-scrollto'
 
 Vue.use(VueScroll, {
@@ -95,7 +94,7 @@ export default {
 
 <style lang="scss">
     @import '/assets/scss/app.scss';
-    
+
     html, body {
         z-index: -100;
         position: relative;
