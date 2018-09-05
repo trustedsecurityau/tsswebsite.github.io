@@ -14,21 +14,15 @@
         </Hero>
 
         <SectionModule
-                skrim
-                grey
-                side="right"
-                image="/img/about/anzac-canberra.jpeg">
+            skrim
+            grey
+            side="right"
+            image="/img/about/anzac-canberra.jpeg">
             <h3>Australian</h3>
             <h2>Established and Operated</h2>
-            <p>
-                TSS was established by Richard Byfield (TSS MD), together with three other former Australian Defence Security and Intelligence personnel. Byfield established TSS to be a mission focused business for actively protecting Australian organisations from contemporary cyber threats.
-            </p>
-            <p>
-                TSS believes that the common approach to cyber security has been failing for many years. In order to better minimise business risk, TSS provides an understanding of the threats to the assets of value most likely to be targeted within an&nbsp;organisation.
-            </p>
-            <p>
-                With significant experience in mitigating and countering cyber threats for the Australian government, critical infrastructure providers and other organisations for well over a decade, TSS provides an evolutionary approach to addressing the contemporary challenges that digitisation of business poses to modern organisations today.
-            </p>
+            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
+            <p>The diversity allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
+            <p>To maintain our high degree of specialised personnel, each staff member is given a generous professional development budget per year to devote to training, conferences, certifications and self-directed learning.</p>
 
         </SectionModule>
 
@@ -49,7 +43,7 @@
             waves>
             <div class="grid-x text-center">
                 <div class="cell small-12 medium-6">
-                    <h1 class="primary"><i class="fas fa-tasks"></i></h1>
+                    <h1 class="primary"><i class="fas fa-tasks"/></h1>
                     <h4 class="primary">Key Features</h4>
                     <div>Unique threat knowledge</div>
                     <div>Information security specialists</div>
@@ -57,11 +51,11 @@
                     <div>Threat-based approach</div>
                     <div>Flexible commercial model</div>
                     <div>Vendor and product neutral</div>
-                    <div style="height: 60px"
+                    <div style="height: 60px;"
                          class="hide-for-medium"/>
                 </div>
                 <div class="cell small-12 medium-6">
-                    <h1 class="primary"><i class="fas fa-university"></i></h1>
+                    <h1 class="primary"><i class="fas fa-university"/></h1>
                     <h4 class="primary">Broad Multi-sector Experience</h4>
                     <div>Federal, State and Local Government</div>
                     <div>Financial Services / Banking</div>
