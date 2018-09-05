@@ -7,7 +7,7 @@
             overflow
             light>
             <div class="eyebrow">Services</div>
-            <h1>Serving premium cyber security to the Australian&nbsp;market.</h1>
+            <h1>Serving premium cyber security to the Australian&nbsp;market</h1>
             <p>TSS offers a range of consulting, security testing and managed security services. Our experience across a broad range of markets means we can assist your organisation in meeting its cyber security needs.</p>
         </Hero>
 
