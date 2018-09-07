@@ -151,7 +151,12 @@ export default {
                 position: absolute;
                 bottom: 0;
                 content: '';
-                z-index: -5;
+                z-index: 0;
+            }
+
+            .grid-container {
+                position: relative;
+                z-index: 1;
             }
         }
 

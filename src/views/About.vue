@@ -20,9 +20,15 @@
             image="/img/about/anzac-canberra.jpeg">
             <h3>Australian</h3>
             <h2>Established and Operated</h2>
-            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
-            <p>The diversity allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
-            <p>To maintain our high degree of specialised personnel, each staff member is given a generous professional development budget per year to devote to training, conferences, certifications and self-directed learning.</p>
+            <p>
+                Established in 2011, TSS Cyber (previously Datacom TSS) is a specialist information security company founded by formerly Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
+            </p>
+            <p>
+                TSS believes that the common approach to cyber security has been failing for many years. In order to better minimise business risk, TSS provides an understanding of the threats to the assets of value most likely to be targeted within an&nbsp;organisation.
+            </p>
+            <p>
+                With significant experience in mitigating and countering cyber threats for the Australian government, critical infrastructure providers and other organisations for well over a decade, TSS provides an evolutionary approach to addressing the contemporary challenges that digitisation of business poses to modern organisations today.
+            </p>
 
         </SectionModule>
 
@@ -119,6 +125,7 @@
                      width=""
                      height=""
                      alt="CISSP">
+                <br>
                 <img src="/img/about/certs/gxpn-gold.png"
                      width=""
                      height=""
@@ -135,6 +142,20 @@
                      width=""
                      height=""
                      alt="GCIH">
+                <br>
+                <img src="/img/about/certs/cisa.png"
+                     width=""
+                     height=""
+                     alt="CISA">
+                <img src="/img/about/certs/cism.png"
+                     width=""
+                     height=""
+                     alt="CISM">
+                <img src="/img/about/certs/Sabsa_Logo2-300x132.jpg"
+                     width=""
+                     height=""
+                     alt="SABSA">
+
             </div>
         </SectionModule>
 
@@ -145,8 +166,9 @@
             image="/img/about/the_best_team_2x.jpg">
             <h3>The right talent</h3>
             <h2>A great team</h2>
-            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine cyber opterations, security architecture, security engineering, threat intelligence, DevOps, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
-            <p>This allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
+            <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
+            <p>The diversity allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
+            <p>To maintain our high degree of specialised personnel, each staff member is given a generous professional development budget per year to devote to training, conferences, certifications and self-directed learning.</p>
         </SectionModule>
 
         <SectionModule

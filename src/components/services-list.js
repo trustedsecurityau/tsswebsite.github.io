@@ -51,13 +51,13 @@ export default {
                 showInFooter: true
             },
             {
-                id: 'itsaciso',
+                id: 'vsa',
                 image: '/img/services/strategic/v_cisoitsa_v3@2x.png',
                 icon: '/img/services/strategic/vcisoitsa.png',
                 eyebrow: 'Virtual',
-                title: 'Security Team',
+                title: 'Security Adviser',
                 paragraph: 'A service to provide you access to a pool of experienced information security professionals with experience in CISO, ITSA and/or strategic advisory roles. You can leverage this service for liaison with regulators, board advisory consulting and general cyber-security expertise.',
-                footerTitle: 'Virtual Security Team',
+                footerTitle: 'Virtual Security Adviser',
                 type: 'row',
                 violator: false,
                 side: 'left',
@@ -170,7 +170,7 @@ export default {
         title: 'Security Testing',
         showDescription: 'Accomplished ethical hackers that can emulate real world threat actors.',
         description: "Our <b>Red Teaming</b>, <b>Pentesting</b> and <b>Secure Code Review</b> division – We emulate real world cyber adversaries, to both test your organisation's security controls and help you understand likely attack vectors so you can better prepare to prevent and resist future attacks.",
-        quote: "Our Red Teaming is world class and emulates real-world adversaries, to both test your organisation's security controls and help you understand likely attack vectors so you can better prepare to prevent and resist future attacks.",
+        quote: "Our Red Teaming, Pentesting and Secure Code Review Services emulates real-world adversaries, to both test your organisation's security controls and help you understand likely attack vectors so you can better prepare to prevent and resist future attacks.",
         list: [
             {
                 id: 'redteaming',
