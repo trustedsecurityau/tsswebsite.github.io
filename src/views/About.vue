@@ -9,7 +9,7 @@
             <div class="eyebrow">About Us</div>
             <h2>Providing trusted security services globally since 2011</h2>
             <p>
-                Established in 2011, TSS Cyber (previously Datacom TSS) is a specialist information security company founded by formerly Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
+                Established in 2011, TSS Cyber (previously Datacom TSS) is a specialist information security company founded by former Australian Government intelligence and cyber security specialists. We aim to deliver discreet, niche and tailored security solutions to best meet your business&nbsp;needs.
             </p>
         </Hero>
 
