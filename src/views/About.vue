@@ -18,7 +18,7 @@
             grey
             side="right"
             image="/img/about/anzac-canberra.jpeg">
-            <h3>Threat Focused,</h3>
+            <h3>Threat Focused</h3>
             <h2>Evoultionary Approach</h2>
             <p>
                 TSS believes that the common approach to cyber security has been failing for many years. In order to better minimise business risk, TSS provides an understanding of the threats to the assets of value most likely to be targeted within an&nbsp;organisation.
