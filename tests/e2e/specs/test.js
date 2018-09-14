@@ -2,11 +2,10 @@
 // http://nightwatchjs.org/guide#usage
 
 module.exports = {
-    'default e2e tests': browser => {
+    'Copyright Test': browser => {
         browser
             .url(process.env.VUE_DEV_SERVER_URL)
-            .waitForElementVisible('#app', 5000)
-            .assert.containsText('', 'Copyright © 2018 TSS Cyber Pty Ltd')
-            .end()
+            .waitForElementVisible('#app > div.home', 5000)
+            .assert.containsText('#app > div.home > footer', 'Copyright © ' + (new Date()).getFullYear() + ' TSS Cyber Pty Ltd')
     }
 }
