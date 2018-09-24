@@ -4,7 +4,7 @@
 		{
 			"title": "SOC Manager",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
+			"link": "mailto:work@tsscyber.com.au",
 			"hiring": false,
 			"priority": false
 		}
@@ -13,15 +13,15 @@
 		{
 			"title": "Security Analyst",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
-			"hiring": true,
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": false,
 			"priority": false
 		},
 		{
 			"title": "Jnr. Security Analyst",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
-			"hiring": true,
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": false,
 			"priority": false
 		}
 	],
@@ -29,14 +29,14 @@
 		{
 			"title": "Snr. Security Engineer",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
+			"link": "mailto:work@tsscyber.com.au",
 			"hiring": false,
 			"priority": false
 		},
 		{
 			"title": "Jnr. Security Engineer",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
+			"link": "mailto:work@tsscyber.com.au",
 			"hiring": false,
 			"priority": false
 		}
@@ -45,7 +45,7 @@
 		{
 			"title": "Snr. Security Consultants",
 			"location": "Canberra, ACT",
-			"link": "mailto:jobs@tsscyber.com.au",
+			"link": "mailto:work@tsscyber.com.au",
 			"hiring": true,
 			"priority": false
 		}
