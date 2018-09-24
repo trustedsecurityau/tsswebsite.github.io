@@ -20,6 +20,7 @@
     "ical": "^0.5.0",
     "medium-json-feed": "0.0.2",
     "moment": "^2.22.2",
+    "prerender-spa-plugin": "^3.4.0",
     "register-service-worker": "^1.5.2",
     "rellax": "^1.6.2",
     "scrollmagic": "^2.0.5",

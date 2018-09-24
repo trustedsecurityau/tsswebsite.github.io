@@ -12,5 +12,9 @@ ie9.init()
 export default new Vue({
     router,
     store,
+    mounted () {
+        // You'll need this for renderAfterDocumentEvent.
+        document.dispatchEvent(new Event('render-event'))
+    },
     render: h => h(App)
 }).$mount('#app')
