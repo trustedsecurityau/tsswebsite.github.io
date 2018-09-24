@@ -9,6 +9,18 @@ module.exports = {
         port: 80,
         disableHostCheck: true // That solved it
     },
+    pages: {
+        index: {
+            entry: 'src/main.js',
+            template: 'public/index.html',
+            filename: 'index.html'
+        },
+        fourOhFour: {
+            entry: 'src/main.js',
+            template: 'public/index.html',
+            filename: '404.html'
+        }
+    },
     configureWebpack: {
         plugins: [
             new PrerenderSPAPlugin({
@@ -37,10 +49,10 @@ module.exports = {
                 renderer: new Renderer({
                     renderAfterDocumentEvent: 'render-event',
                     headless: true,
+                    renderAfterTime: 5000, // Wait 5 seconds.
                     inject: {
-                        noJS: true
-                    },
-                    renderAfterTime: 5000 // Wait 5 seconds.
+                        building: true
+                    }
                 })
             })
         ]

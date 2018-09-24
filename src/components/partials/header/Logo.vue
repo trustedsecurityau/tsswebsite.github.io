@@ -79,14 +79,17 @@ export default {
         &.green {
             fill: #3cddae;
         }
-        &.light {
-            fill: #12b380;
 
-            path.text {
-                fill: $navypurple-color;
+        html:not(.no-js) & {
+            &.light {
+                fill: #12b380;
 
-                .headroom--not-top & {
-                    fill: $white;
+                path.text {
+                    fill: $navypurple-color;
+
+                    .headroom--not-top & {
+                        fill: $white;
+                    }
                 }
             }
         }

@@ -1,7 +1,6 @@
 <template>
     <div id="app">
-        <div v-if="noJS"
-             id="cover"
+        <div id="cover"
              class="test"/>
         <vue-progress-bar/>
         <transition name="fade">
@@ -47,11 +46,6 @@ Vue.mixin({
 export default {
     components: {
         Header
-    },
-    data () {
-        return {
-            noJS: window.noJS
-        }
     },
     mounted () {
         this.$Progress.finish()
