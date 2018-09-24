@@ -12,5 +12,14 @@ ie9.init()
 export default new Vue({
     router,
     store,
+    mounted () {
+        // If we're not building, remove the no-js class
+        if (!window.__PRERENDER_INJECTED) {
+            document.documentElement.classList.remove('no-js')
+        }
+
+        // You'll need this for renderAfterDocumentEvent.
+        document.dispatchEvent(new Event('render-event'))
+    },
     render: h => h(App)
 }).$mount('#app')

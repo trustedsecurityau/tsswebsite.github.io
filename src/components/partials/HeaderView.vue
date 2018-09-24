@@ -196,6 +196,28 @@ export default {
             padding: 50px 0 30px;
         }
 
+        html.no-js & {
+            background-color: rgba(3, 5, 4, 0.9) !important;
+
+            nav {
+                a {
+                    color: $white !important;
+
+                    &:hover, &.router-link-active, i {
+                        color: $primary-color !important;
+                    }
+
+                    i {
+                        color: $primary-color !important;
+
+                        &:hover {
+                            color: $white !important;
+                        }
+                    }
+                }
+            }
+        }
+
         &.dark {
             background-color: rgba(3, 5, 4, 0.3);
 
@@ -376,7 +398,7 @@ export default {
             text-transform: uppercase;
             font-weight: 500;
 
-            &.dropdown {
+            html:not(.no-js) &.dropdown {
                 &:after {
                     content: " ";
                     font-weight: 900;
