@@ -14,14 +14,14 @@
 			"title": "Security Analyst",
 			"location": "Canberra, ACT",
 			"link": "mailto:jobs@tsscyber.com.au",
-			"hiring": true,
+			"hiring": false,
 			"priority": false
 		},
 		{
 			"title": "Jnr. Security Analyst",
 			"location": "Canberra, ACT",
 			"link": "mailto:jobs@tsscyber.com.au",
-			"hiring": true,
+			"hiring": false,
 			"priority": false
 		}
 	],
