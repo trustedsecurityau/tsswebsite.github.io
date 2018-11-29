@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   \
   <div id='myModal' class='tss'>\
     <div class='tss-content'>\
-      <div style='text-align: center;'><img src=https://www.dtss.com.au/images/logo.png /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
+      <div style='text-align: center;'><img src=https://www.tsscyber.com.au/images/logo.jpg /><br><span style='font-size: larger'>Cross Site Scripting Proof Of Concept</span><br><br> Cross site scripting vulnerability exploited with the following environment: <br><br> " +
   "<b>document.domain: </b><br>" +
   document.domain + "<br><br>" +
   "<b>document.cookie: </b><br>" +
