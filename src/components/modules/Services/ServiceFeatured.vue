@@ -11,7 +11,7 @@
                     <img :src="service.icon"
                          alt="" class="icon" v-if="!service.image">
                     <div v-if="service.violator"
-                         class="violator hollow">Premiere Service</div>
+                         class="violator hollow">Premier Service</div>
                     <h2>{{ service.eyebrow }}</h2>
                     <h1>{{ service.title }}</h1>
                     <p v-html="service.paragraph"/>
