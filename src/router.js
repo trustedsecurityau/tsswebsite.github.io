@@ -8,6 +8,7 @@ import VueScrollTo from 'vue-scrollto'
 const Home = () => import('./views/Home')
 const About = () => import('./views/About')
 const Labs = () => import('./views/Labs')
+const CVEs = () => import('./views/labs/CVEs')
 const Services = () => import('./views/Services')
 const SecurityTesting = () => import('./views/services/SecurityTesting')
 const MSO = () => import('./views/services/MSO')
@@ -44,6 +45,14 @@ let router = new Router({
             component: Labs,
             meta: {
                 title: 'Labs'
+            }
+        },
+        {
+            path: '/labs/cves',
+            name: 'cves',
+            component: CVEs,
+            meta: {
+                title: 'CVEs'
             }
         },
         {
