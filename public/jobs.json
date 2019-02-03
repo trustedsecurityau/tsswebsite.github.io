@@ -12,7 +12,7 @@
 			"title": "Project Manager",
 			"location": "Canberra, ACT",
 			"link": "mailto:work@tsscyber.com.au",
-			"hiring": true,
+			"hiring": false,
 			"priority": true
 		},
 		{
@@ -51,8 +51,8 @@
 			"title": "Snr. Security Engineer",
 			"location": "Canberra, ACT",
 			"link": "mailto:work@tsscyber.com.au",
-			"hiring": false,
-			"priority": false
+			"hiring": true,
+			"priority": true
 		},
 		{
 			"title": "Security Engineer",
