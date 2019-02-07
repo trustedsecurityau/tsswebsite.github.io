@@ -12,7 +12,7 @@
 			"title": "Project Manager",
 			"location": "Canberra, ACT",
 			"link": "mailto:work@tsscyber.com.au",
-			"hiring": true,
+			"hiring": false,
 			"priority": true
 		},
 		{
@@ -51,8 +51,8 @@
 			"title": "Snr. Security Engineer",
 			"location": "Canberra, ACT",
 			"link": "mailto:work@tsscyber.com.au",
-			"hiring": false,
-			"priority": false
+			"hiring": true,
+			"priority": true
 		},
 		{
 			"title": "Security Engineer",
@@ -66,6 +66,22 @@
 			"location": "Canberra, ACT",
 			"link": "mailto:work@tsscyber.com.au",
 			"hiring": false,
+			"priority": false
+		}
+	],
+	"penetration testers": [
+		{
+			"title": "Penetration Tester",
+			"location": "Sydney, NSW",
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": true,
+			"priority": false
+		},
+		{
+			"title": "Penetration Tester",
+			"location": "Canberra, ACT",
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": true,
 			"priority": false
 		}
 	],
