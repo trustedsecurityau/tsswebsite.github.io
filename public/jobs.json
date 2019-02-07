@@ -69,6 +69,22 @@
 			"priority": false
 		}
 	],
+	"penetration testers": [
+		{
+			"title": "Penetration Tester",
+			"location": "Sydney, NSW",
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": true,
+			"priority": false
+		},
+		{
+			"title": "Penetration Tester",
+			"location": "Canberra, ACT",
+			"link": "mailto:work@tsscyber.com.au",
+			"hiring": true,
+			"priority": false
+		}
+	],
 	"consultant": [
 		{
 			"title": "Snr. Security Consultants",
