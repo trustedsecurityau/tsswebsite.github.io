@@ -35,9 +35,11 @@
             image="/img/about/what_we_do_2x.jpg">
             <h3>Trusted Security Services</h3>
             <h2>What we do</h2>
-            <p>Our knowledge of the Australian cyber threat landscape is derived from our experience with real world offensive and defensive security techniques. We have over 200 years of combined experience defending Australian Government, critical infrastructure and assets of national importance.</p>
             <p>
-                We combine highly-skilled personnel with best of breed security technologies to deliver a superior service to all of our clients.
+                Our knowledge of the Australian cyber threat landscape is derived from our experience with real world offensive and defensive security techniques. We have over 200 years of combined experience defending Australian Government, critical infrastructure and assets of national importance.
+            </p>
+            <p>
+                To ensure the optimisation of organisation-wide security at the strategic, operational and cultural levels, TSS focuses on building partnerships with its clients at all levels, both technical and non-technical, to understand organisational goals, while minimising cost and disruption to its clients’ business.
             </p>
         </SectionModule>
 
@@ -89,7 +91,7 @@
             image="/img/about/facility.jpeg">
             <h3>Federally</h3>
             <h2>Accredited Facility</h2>
-            <p>TSS operate a 24x7x365 Federally Accredited Cyber Security Incident Response Centre in the heart of Canberra. All customer telemetry data and TSS data is transferred and stored sovereign to Australia with no offshore access. All SOC staff have federal clearance to manage up to the PROTECTED level.</p>
+            <p>TSS operates a 24x7 federally accredited Cyber Security Operations Centre in Canberra (C-SOC). All customer telemetry and log data is transferred and stored within Australia, with no offshore access. All C-SOC staff have a federal clearance to PROTECTED level.</p>
 
         </SectionModule>
 
@@ -101,7 +103,7 @@
             <h2>Accreditations</h2>
             <div class="grid-x align-center">
                 <div class="cell small-12 medium-10">
-                    <p>Each one of our staff are experts in their field, and have accreditations to match. We pride ourselves in supporting our staff to achieve and maintain accreditations and awards.</p>
+                    <p>Each TSS staff member is an expert in their field, with the accreditations to match. TSS prides itself in supporting staff to achieve and maintain accreditations and awards.</p>
                 </div>
             </div>
 
@@ -164,8 +166,12 @@
             <h3>The right talent</h3>
             <h2>A great team</h2>
             <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
-            <p>The diversity allows us to solve a range of problems our customers face including information and data security, capability development, security assurance, cyber adversary simulation, and counter cyber-exploitation.</p>
-            <p>To maintain our high degree of specialised personnel, each staff member is given a generous professional development budget per year to devote to training, conferences, certifications and self-directed learning.</p>
+            <p>
+                Staff diversity allows TSS to solve a range of problems related to; information and data security, security governance, capability development, security assurance, and countering cyber-exploitation.
+            </p>
+            <p>
+                To maintain TSS’ high degree of specialised personnel, TSS supports each staff member in maintaining and increasing their skills through training, conferences, certifications and self-directed learning.
+            </p>
         </SectionModule>
 
         <SectionModule
