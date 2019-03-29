@@ -6,7 +6,7 @@
         image="/img/services/tactical/tactical_excerpt_2x.png">
         <h3>Managed Security Operations</h3>
         <p>
-            Our <b>Managed Security Overwatch</b> and <b>Monitoring</b> division
+            Our <b>24x7 Managed Security Services</b> capability
         </p>
         <span>Learn More</span>
     </template-router>
