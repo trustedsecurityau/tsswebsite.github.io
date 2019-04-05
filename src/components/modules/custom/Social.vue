@@ -172,6 +172,9 @@ export default {
                 events[i].start_moment = moment(events[i].start).format('Do MMM YY')
                 events[i].end_moment = moment(events[i].end).format('Do MMM YY')
             }
+
+            events = events.sort((a, b) => a.start.getTime() < b.start.getTime() ? -1 : 1)
+
             _this.events = events
         })
     }
