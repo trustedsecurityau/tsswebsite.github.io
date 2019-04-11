@@ -6,7 +6,7 @@
 export default {
     consulting: {
         icon: '/img/home/strategic_2x.png',
-        title: 'Security Assurance',
+        title: 'Security Consulting',
         showDescription: 'Highly skilled and experienced consultants providing trusted security advice and guidance.',
         description: 'With so many different threats to deal with and a multitude of products that claim to solve the security puzzle, just understanding your next security move can be difficult. TSS can help ensure organisations spend their security budget wisely through using one or more of the following services.',
         quote: 'Security Posture Snapshot is our flagship consulting service that provides a prioritised and budgeted road map to improved business resilience.',
