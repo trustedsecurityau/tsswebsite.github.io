@@ -167,7 +167,7 @@
             <h2>A great team</h2>
             <p>TSS is a multi-disciplinary team of cyber security professionals. We combine security architecture, threat intelligence, and risk assessment expertise to deliver the most effective outcomes for our clients.</p>
             <p>
-                Staff diversity allows TSS to solve a range of problems related to; information and data security, security governance, capability development, security consulting, and countering cyber-exploitation.
+                Staff diversity allows TSS to solve a range of problems related to; information and data security, security governance, capability development, security assurance, and countering cyber-exploitation.
             </p>
             <p>
                 To maintain TSS’ high degree of specialised personnel, TSS supports each staff member in maintaining and increasing their skills through training, conferences, certifications and self-directed learning.
