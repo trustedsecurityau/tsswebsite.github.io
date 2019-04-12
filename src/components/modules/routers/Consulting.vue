@@ -4,7 +4,7 @@
         :to="{ name: 'consulting' }"
         :opacity="0.1"
         image="/img/services/strategic/strategic_excerpt_2x.png">
-        <h3>Security Assurance</h3>
+        <h3>Security Consulting</h3>
         <p>
             Our <b>Security Snapshot</b> and <b>Security Architecture Review</b> services
         </p>

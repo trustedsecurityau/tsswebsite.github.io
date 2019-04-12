@@ -29,7 +29,7 @@ module.exports = {
 
                 // outputDir: path.join(__dirname, 'prerendered'),
 
-                routes: [ '/', '/about', '/labs', '/services', '/services/security-assurance', '/services/security-testing', '/services/managed-security', '/careers', '/contact', '/privacy' ],
+                routes: [ '/', '/about', '/labs', '/services', '/services/security-consulting', '/services/security-testing', '/services/managed-security', '/careers', '/contact', '/privacy' ],
 
                 // Optional minification.
                 minify: {

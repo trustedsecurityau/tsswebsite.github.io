@@ -54,12 +54,16 @@ let router = new Router({
                 title: 'Services'
             }
         },
+	    {
+		    path: '/services/security-assurance',
+		    redirect: { name: 'consulting' }
+	    },
         {
-            path: '/services/security-assurance',
+            path: '/services/security-consulting',
             name: 'consulting',
             component: Consulting,
             meta: {
-                title: 'Security Assurance'
+                title: 'Security Consulting'
             }
         },
         {
@@ -152,6 +156,9 @@ let router = new Router({
 	}
 })
 
+/**
+ * Title Guard
+ */
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title + ' | Trusted Security Services'
     setTimeout(() => {
