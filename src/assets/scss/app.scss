@@ -36,6 +36,10 @@ html, body {
 	background-color: $white;
 }
 
+.full-height {
+	height: 100%;
+}
+
 .callout {
 	border: none;
 	border-radius: $global-radius;
@@ -81,7 +85,7 @@ b {
 	font-weight: 600;
 }
 
-a.more {
+a.more, .anchor-more {
 	&:after {
 		display: inline-block;
 		padding-left: 7px;

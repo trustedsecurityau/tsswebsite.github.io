@@ -66,38 +66,51 @@
 
             <transition name="fade">
                 <div class="fixed services-dropdown" v-if="show_services">
-                    <div class="">
-                        <div class="grid-x">
-                            <router-link :to="{ name: 'consulting' }" class="consulting small-12 medium-4 cell">
-                                <div class="bgi"></div>
-                                <div class="grid-x align-middle">
-                                    <div class="cell small-12 medium-10 large-9">
-                                        <img src="/img/home/strategic_2x.png" alt="">
-                                        <h4>{{ Services.consulting.title }}</h4>
-                                        <p v-html="Services.consulting.showDescription"></p>
+                    <div class="grid-y full-height">
+                        <div class="cell shrink">
+                            <div class="grid-x services-home">
+                                <router-link :to="{ name: 'services' }" class="small-12 cell text-center ">
+                                    <div class="full-height grid-x align-center-middle">
+                                        <div class="cell shrink anchor-more">
+                                            View all Services
+                                        </div>
                                     </div>
-                                </div>
-                            </router-link>
-                            <router-link :to="{ name: 'mso' }" class="mso small-12 medium-4 cell">
-                                <div class="bgi"></div>
-                                <div class="grid-x align-middle">
-                                    <div class="cell small-12 medium-10 large-9">
-                                        <img src="/img/home/tactical_2x.png" alt="">
-                                        <h4>{{ Services.mso.title }}</h4>
-                                        <p v-html="Services.mso.showDescription"></p>
+                                </router-link>
+                            </div>
+                        </div>
+                        <div class="cell auto">
+                            <div class="grid-x full-height services-list">
+                                <router-link :to="{ name: 'consulting' }" class="service consulting small-12 medium-4 cell">
+                                    <div class="bgi"></div>
+                                    <div class="grid-x align-middle full-height">
+                                        <div class="cell small-12 medium-10 large-9">
+                                            <img src="/img/home/strategic_2x.png" alt="">
+                                            <h4>{{ Services.consulting.title }}</h4>
+                                            <p v-html="Services.consulting.showDescription"></p>
+                                        </div>
                                     </div>
-                                </div>
-                            </router-link>
-                            <router-link :to="{ name: 'securitytesting' }" class="securitytesting small-12 medium-4 cell">
-                                <div class="bgi"></div>
-                                <div class="grid-x align-middle">
-                                    <div class="cell small-12 medium-10 large-9">
-                                        <img src="/img/home/operational_2x.png" alt="">
-                                        <h4>{{ Services.securitytesting.title }}</h4>
-                                        <p v-html="Services.securitytesting.showDescription"></p>
+                                </router-link>
+                                <router-link :to="{ name: 'mso' }" class="service mso small-12 medium-4 cell">
+                                    <div class="bgi"></div>
+                                    <div class="grid-x align-middle full-height">
+                                        <div class="cell small-12 medium-10 large-9">
+                                            <img src="/img/home/tactical_2x.png" alt="">
+                                            <h4>{{ Services.mso.title }}</h4>
+                                            <p v-html="Services.mso.showDescription"></p>
+                                        </div>
                                     </div>
-                                </div>
-                            </router-link>
+                                </router-link>
+                                <router-link :to="{ name: 'securitytesting' }" class="service securitytesting small-12 medium-4 cell">
+                                    <div class="bgi"></div>
+                                    <div class="grid-x align-middle full-height">
+                                        <div class="cell small-12 medium-10 large-9">
+                                            <img src="/img/home/operational_2x.png" alt="">
+                                            <h4>{{ Services.securitytesting.title }}</h4>
+                                            <p v-html="Services.securitytesting.showDescription"></p>
+                                        </div>
+                                    </div>
+                                </router-link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -436,20 +449,45 @@ export default {
 
         &.fixed {
             left: 0;
-            height: 300px;
+            height: 350px;
             width: 100%;
             position: fixed;
 
             @include breakpoint(large) {
-                height: 250px;
+                height: 300px;
+            }
+
+            #app > .services & {
+                height: 300px;
+                
+                @include breakpoint(large) {
+                    height: 250px;
+                }
             }
         }
 
-        > div, .grid-x {
-            height: 100%;
+        .services-home {
+            /deep/ a {
+                background: linear-gradient(75deg, #010205, #142f26);
+                color: $white;
+                height: 50px;
+                font-weight: 500;
+
+                .light & {
+                    background: linear-gradient(75deg, #a9efda, #cdf7e8);
+                    color: $header-color;
+                }
+
+                #app > .services & {
+                    display: none;
+                }
+            }
         }
 
-        .consulting, .mso, .securitytesting {
+        .services-list {
+        }
+
+        .service {
             height: 100%;
             background-color: #000;
             // -webkit-background-size: 1000px;
