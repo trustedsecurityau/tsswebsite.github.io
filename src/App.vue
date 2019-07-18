@@ -1,12 +1,10 @@
 <template>
     <div id="app">
-        <div id="cover"
-             class="test"/>
+        <div id="cover" class="test"/>
         <vue-progress-bar/>
         <transition name="fade">
             <router-view :key="$route.fullPath"/>
         </transition>
-
     </div>
 </template>
 

@@ -94,6 +94,16 @@ export default {
             }
         }
 
+        html:not(.no-js) .headroom--not-top & {
+            &.light {
+                fill: #12b380;
+
+                path.text {
+                    fill: $white;
+                }
+            }
+        }
+
         &.red {
             fill: $operational-color;
         }
