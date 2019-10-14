@@ -202,7 +202,7 @@ export default {
     header {
         // margin-top: 10px;
         width: 100%;
-        padding: 40px 0 30px;
+        padding: 30px 0 20px;
         transition: all .2s;
 
         @include breakpoint(medium) {
@@ -459,7 +459,7 @@ export default {
 
             #app > .services & {
                 height: 300px;
-                
+
                 @include breakpoint(large) {
                     height: 250px;
                 }

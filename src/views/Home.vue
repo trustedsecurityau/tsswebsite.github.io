@@ -3,7 +3,6 @@
         <header-view/>
         <Hero
             center
-
             :gp="true">
             <h3>Australia's Leading</h3>
             <h1>Cyber Security Company</h1>
