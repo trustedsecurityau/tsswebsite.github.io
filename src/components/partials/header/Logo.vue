@@ -25,7 +25,7 @@
                         </g>
                     </g>
                 </g>
-                <path d="M20.5,252.5 L537.5,249.5" id="Line" stroke-opacity="0.243034309" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M20.5,252.5 L537.5,252.5" id="Line" stroke-opacity="0.243034309" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(279.000000, 252.500000) rotate(-0.000000) translate(-279.000000, -252.500000) "></path>
             </g>
         </svg>
     </div>
