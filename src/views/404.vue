@@ -2,8 +2,10 @@
     <div class="FourOhFour">
         <header-view/>
         <div id="fourOhFourVideo">
-            <video id="vid" video autobuffer autoplay loop muted>
-                <source id="mp4" src="/video/404.mp4" type="video/mp4">
+            <video id="vid"
+                   video autobuffer autoplay loop muted>
+                <source id="mp4"
+                        src="/video/404.mp4" type="video/mp4">
             </video>
         </div>
         <div class="content">
@@ -13,8 +15,9 @@
                         <h3>Page not found</h3>
                         <h1>Error Code 404.</h1>
                         <p>
-                             <br>
-                            <router-link class="more" :to="{ name: 'home' }">Home</router-link>
+                            <br>
+                            <router-link :to="{ name: 'home' }"
+                                         class="more">Home</router-link>
                         </p>
                     </div>
                 </div>
@@ -27,7 +30,6 @@
 <script>
 import HeaderView from '@/components/partials/HeaderView'
 import FooterView from '@/components/partials/FooterView'
-
 
 export default {
     components: {
