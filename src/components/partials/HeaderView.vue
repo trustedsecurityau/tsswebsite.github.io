@@ -255,8 +255,8 @@ export default {
             /deep/.headroom--not-top & {
                 transition: all .2s;
                 background-color: rgba(3, 5, 4, 0.9);
-                -webkit-backdrop-filter: blur(6px);
-                backdrop-filter: blur(6px);
+                /*-webkit-backdrop-filter: blur(6px);*/
+                /*backdrop-filter: blur(6px);*/
             }
 
             /deep/.headroom--unpinned & {
@@ -279,8 +279,8 @@ export default {
             /deep/.headroom--not-top & {
                 transition: all .2s;
                 background-color: rgba(3, 5, 4, 0.9);
-                -webkit-backdrop-filter: blur(6px);
-                backdrop-filter: blur(6px);
+                /*-webkit-backdrop-filter: blur(6px);*/
+                /*backdrop-filter: blur(6px);*/
 
                 nav {
                     a {
@@ -329,8 +329,8 @@ export default {
             /deep/.headroom--not-top & {
                 transition: all .2s;
                 background-color: rgba(3, 5, 4, 0.9);
-                -webkit-backdrop-filter: blur(6px);
-                backdrop-filter: blur(6px);
+                /*-webkit-backdrop-filter: blur(6px);*/
+                /*backdrop-filter: blur(6px);*/
             }
 
             /deep/.headroom--unpinned & {
@@ -360,8 +360,8 @@ export default {
             /deep/.headroom--not-top & {
                 transition: all .2s;
                 background-color: rgba(3, 5, 4, 0.9);
-                -webkit-backdrop-filter: blur(6px);
-                backdrop-filter: blur(6px);
+                /*-webkit-backdrop-filter: blur(6px);*/
+                /*backdrop-filter: blur(6px);*/
             }
 
             /deep/.headroom--unpinned & {
@@ -392,8 +392,8 @@ export default {
             /deep/.headroom--not-top & {
                 transition: all .2s;
                 background-color: rgba(3, 5, 4, 0.9);
-                -webkit-backdrop-filter: blur(6px);
-                backdrop-filter: blur(6px);
+                /*-webkit-backdrop-filter: blur(6px);*/
+                /*backdrop-filter: blur(6px);*/
             }
 
             /deep/.headroom--unpinned & {
