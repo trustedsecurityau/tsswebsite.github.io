@@ -12,9 +12,7 @@
                     <div class="grid-x grid-padding-x align-middle">
                         <div class="shrink cell">
                             <div class="logo">
-                                <router-link :to="{ name: 'home' }" @mouseover.native="show_services = false">
-                                    <Logo :theme="theme"/>
-                                </router-link>
+                                <Logo @mouseover.native="show_services = false" :theme="theme" home_name="home" cx_link="https://cybercx.com.au/" />
                             </div>
                         </div>
 

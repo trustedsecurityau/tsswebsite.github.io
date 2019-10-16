@@ -166,7 +166,7 @@ export default {
         ical.fromURL('https://proxy.sinn.io/tss/cal/', {}, function (err, data) {
             let events = Object.keys(data).map(function (key) { return data[key] }).filter(event => moment(event.end).isAfter(moment()))
 
-            console.log(events)
+            // console.log(events)
 
             for (let i = 0; i < events.length; i++) {
                 events[i].start_moment = moment(events[i].start).format('Do MMM YY')
