@@ -124,7 +124,7 @@ export default {
     mounted: function () {
         Axios.get('/jobs.json').then((response) => {
             this.categories = response.data
-            console.log(this.categories)
+            // console.log(this.categories)
         })
     }
 }

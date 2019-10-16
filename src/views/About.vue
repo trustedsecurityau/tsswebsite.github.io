@@ -14,6 +14,23 @@
         </Hero>
 
         <SectionModule
+                skrim
+                side="left"
+                video
+                cx
+                new-vio
+                image="/video/cx_about.mp4">
+            <h3>A proud member of</h3>
+            <h2>CyberCX</h2>
+            <p>
+                TSS Cyber is proud to be part of the CyberCX group – Australia's leading independent cyber security services company.
+            </p>
+            <p>
+                Visit <a href="https://cybercx.com.au/">cybercx.com.au</a> to find out more.
+            </p>
+        </SectionModule>
+
+        <SectionModule
             skrim
             grey
             side="right"
