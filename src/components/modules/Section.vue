@@ -288,9 +288,8 @@ export default {
             top: 0;
             left: 0;
             background-color: rgba(0,0,0,0.1);
-            box-shadow:         inset 0 0 100px rgba(0,0,0,0.2);
+            box-shadow: inset 0 0 100px rgba(0,0,0,0.2);
         }
-
 
         video {
             height: 100%;
