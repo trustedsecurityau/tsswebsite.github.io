@@ -26,7 +26,7 @@
                 TSS Cyber is proud to be part of the CyberCX group – Australia's leading independent cyber security services company.
             </p>
             <p>
-                Visit <a href="https://cybercx.com.au/">cybercx.com.au</a> to find out more.
+                Visit <a target="_blank" href="https://cybercx.com.au/">cybercx.com.au</a> to find out more.
             </p>
         </SectionModule>
 
