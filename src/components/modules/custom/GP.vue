@@ -91,7 +91,7 @@ export default {
         height: 100%;
         z-index: -2;
         pointer-events: none;
-        opacity: 0.8;
+        opacity: 0.6;
 
         .flip {
             transform: scaleX(-1);
