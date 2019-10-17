@@ -53,16 +53,6 @@ export default {
         GratParallax,
         Energy
     },
-    data: function() {
-    	return {
-    		loaded: false
-        }
-    },
-    mounted: function() {
-    	setTimeout(() => {
-    		this.loaded = true
-        }, 100)
-    },
     props: {
         center: {
             type: Boolean,
@@ -112,6 +102,16 @@ export default {
             type: Boolean,
             default: false
         }
+    },
+    data: function () {
+        return {
+            loaded: false
+        }
+    },
+    mounted: function () {
+        setTimeout(() => {
+            this.loaded = true
+        }, 100)
     }
 }
 </script>
@@ -227,19 +227,16 @@ export default {
 
         &.dark {
             &:before {
-                transition: opacity 3s;
-                opacity: 0.4;
-                background: linear-gradient(45deg, #010205, #154d3a);
+                transition: opacity 5s;
+                opacity: 0.0;
+                background: linear-gradient(45deg, #010205, #113d2e);
             }
 
             &.loaded {
                 &:before {
                     opacity: 1;
-
                 }
             }
-
-
 
             h1, h2, h3, h4, h5, h6 {
                 color: $white;
