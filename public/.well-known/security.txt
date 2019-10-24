@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:team@tsscyber.com.au
+Encryption: https://tsscyber.com.au/tss.asc
+Preferred-Languages: en
+Canonical: https://www.tsscyber.com.au/.well-known/security.txt
+Hiring: https://www.tsscyber.com.au/careers
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEOxiQsVxLgOXizk6cdxNC9GMFXzwFAl2xgg0ACgkQdxNC9GMF
+XzyOug/8CnR4AYtExFGFuIun7Fs6wCF8Ix4wNwNgYsxvyV/40pxvMU2M6B+baT42
+lqkQ2/Dof8t4SqvERfr/GcijfAjzhOhSSqE+sm3PKpaXKatbPKGhydQfYnsmacl/
+cK+0EPuJdFKG86zCTd+QWgqwTugV4sDh1x/ticotoq5PiCzoHOAyegxg9e0Qa4xS
+yjaOYXkEieatj9280v3YV8Lo9to4jrQy1vOxos01sQ/3WK7PhArNfbHYmGMB3qiy
+3+c994VgQQRH/ypT9CysKPytJOJjmwY0BHuJxK+7oNItLUvlTyBfEGDkN+GiDSxz
+Grn4R63QoChVqPE3OiwBkm1y+tpKkwWRIMcmCjXPnjuIcSquOPd99CtsuoJACSri
+RW4FYLySMtAkUuMO8/selqdpS5jJh4mn+/qGA03R8v8QGH52sHzmm6J/gckvRw3N
+zQoOXIlAcUw53pKVH3bfQ2bW3de+8TE+rLHw0/AUqmtc5vopyn/w99YRCkATU+/0
+m0g/NtqHxJe9OVlgoQft9cJSf2DFCPt482nen0dPmqH6mrygugDW9K2CGb4efxV7
+CrS58rnnwNLywwEa6E58G2+FD4JKpmU/sGwQ+h29Fegs1TFdNPcRpCICY+NTd9dl
+IcwlXH32ynBvswGgM5OQDx9aza5D7lrE6jO+HKBUHgv6YrW6uoM=
+=XCL5
+-----END PGP SIGNATURE-----
