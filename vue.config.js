@@ -49,7 +49,8 @@ module.exports = {
                 renderer: new Renderer({
                     renderAfterDocumentEvent: 'render-event',
                     headless: true,
-                    renderAfterTime: 5000, // Wait 5 seconds.
+                    renderAfterTime: 15000, // Wait 10 seconds,
+                    maxConcurrentRoutes: 1,
                     inject: {
                         building: true
                     }

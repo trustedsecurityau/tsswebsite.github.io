@@ -125,10 +125,6 @@
             </div>
 
             <div class="logos">
-                <img src="/img/about/certs/CREST-Accredited_training-courses-218x300.jpg"
-                     width=""
-                     height=""
-                     alt="CREST Accredited">
                 <img src="/img/about/certs/oscp-certs.png"
                      width=""
                      height=""
@@ -219,10 +215,6 @@
                      height=""
                      alt="">
                 <img src="/img/about/supporting/600_446620341.jpeg"
-                     width=""
-                     height=""
-                     alt="">
-                <img src="/img/about/supporting/CREST-logo-2014-290px_290X230.jpg"
                      width=""
                      height=""
                      alt="">

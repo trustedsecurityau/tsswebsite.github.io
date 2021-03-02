@@ -12,7 +12,7 @@
                     <div class="grid-x grid-padding-x align-middle">
                         <div class="shrink cell">
                             <div class="logo">
-                                <Logo @mouseover.native="show_services = false" :theme="theme" home_name="home" cx_link="https://cybercx.com.au/" />
+                                <Logo @mouseover="show_services = false" :theme="theme" home_name="home" cx_link="https://cybercx.com.au/" />
                             </div>
                         </div>
 
@@ -23,36 +23,36 @@
                         <div class="auto cell text-right show-for-medium">
                             <nav class="grid-x grid-padding-x align-right">
                                 <router-link
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     :to="{ name: 'about' }"
                                     class="cell shrink">About</router-link>
                                 <router-link
                                     :to="{ name: 'services' }"
-                                    @mouseover.native="show_services = true"
+                                    @mouseover="show_services = true"
                                     class="cell shrink dropdown">Services</router-link>
                                 <!--<router-link-->
                                     <!--:to="{ name: 'labs' }"-->
                                     <!--class="cell shrink">Labs</router-link>-->
                                 <router-link
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     :to="{ name: 'careers' }"
                                     class="cell shrink">Careers</router-link>
                                 <router-link
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     :to="{ name: 'contact' }"
                                     class="cell shrink">Contact</router-link>
                                 <a
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     href="https://medium.com/tsscyber"
                                     target="_blank"
                                     class="cell shrink">Blog</a>
                                 <a
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     href="https://www.linkedin.com/company/tss-cyber/"
                                     target="_blank"
                                     class="cell shrink linkedin"><i class="fab fa-linkedin"/></a>
                                 <a
-                                    @mouseover.native="show_services = false"
+                                    @mouseover="show_services = false"
                                     href="https://twitter.com/TSSCyber"
                                     target="_blank"
                                     class="cell shrink twitter"><i class="fab fa-twitter-square"/></a>
